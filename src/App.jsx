@@ -6,6 +6,7 @@ import Services from "./Components/Pages/Services";
 import About from "./Components/Pages/About";
 import Contact from "./Components/Pages/Contact";
 import Blog from "./Components/Pages/Blog";
+import Carrito from "./Components/CartWidget/index"
 
 function App() {
  return (
@@ -17,6 +18,7 @@ function App() {
       <Route path="/services" element={<Services />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/carrito" element={<Carrito />} />
     </Routes>
   </div>
  );
